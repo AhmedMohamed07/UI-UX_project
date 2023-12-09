@@ -1,0 +1,39 @@
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-heading {
+  flex: 1;
+  margin-right: 5rem;
+}
+
+.features-heading p {
+  color: #ff8a71;
+  margin-top: 2rem;
+}
+
+.features-container {
+  flex: 1.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 990px) {
+  .features {
+    flex-direction: column;
+  }
+
+  .features-heading {
+    margin: 0 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .features-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
