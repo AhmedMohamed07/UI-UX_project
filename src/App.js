@@ -1,5 +1,5 @@
 import React from 'react';
-// import './app.css'
+import './index.css';
 import { CTA, Brand, Navbar } from './components';
 
 import {
